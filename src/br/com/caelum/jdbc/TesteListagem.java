@@ -5,10 +5,9 @@ import java.sql.*;
 public class TesteListagem {
 
     public static void main(String[] args) throws SQLException {
-        Connection connection =
-                DriverManager.getConnection("jdbc:hsqldb:hsql://localhost:9555/LojaVirtual", "SA", "");
+        Connection connection = Database.getConnection();
         Statement statement = connection.createStatement();
-        boolean resultado = statement.execute("select * from Produto");
+        boolean resultado = statement.execute("insert into produto (nome, descricao) values ('Notebook', 'Notebook i5')");
         ResultSet resultSet = statement.getResultSet();
         while(resultSet.next()){
             int id = resultSet.getInt("id");
@@ -22,4 +21,6 @@ public class TesteListagem {
         statement.close();
         connection.close();
     }
+
+
 }
