@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class TesteInsercao {
     public static void main(String[] args) throws SQLException {
-        try(Connection connection = Database.getConnection()){
+        try(Connection connection = ConnectionPool.getConnection()){
             connection.setAutoCommit(false);
             String sql = "insert into Produto (nome, descricao) values (?, ?)";
             try(PreparedStatement statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)){

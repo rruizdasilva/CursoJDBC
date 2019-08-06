@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be712b86-c415-480c-83b2-61469dbd42e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/jdbc/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteInsercao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteRemocao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LojaVirtual.lck" beforeDir="false" afterPath="$PROJECT_DIR$/LojaVirtual.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LojaVirtual.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LojaVirtual.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LojaVirtual.script" beforeDir="false" afterPath="$PROJECT_DIR$/LojaVirtual.script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC/br/com/caelum/jdbc/TesteListagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC/br/com/caelum/jdbc/TesteListagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/jdbc/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/jdbc/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteInsercao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteInsercao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteListagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteListagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteRemocao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/jdbc/TesteRemocao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +126,8 @@
       <workItem from="1564659244823" duration="741000" />
       <workItem from="1564661115854" duration="1533000" />
       <workItem from="1564747772280" duration="2085000" />
-      <workItem from="1565005314860" duration="2378000" />
+      <workItem from="1565005314860" duration="2673000" />
+      <workItem from="1565090098014" duration="855000" />
     </task>
     <servers />
   </component>

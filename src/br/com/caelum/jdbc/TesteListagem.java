@@ -5,7 +5,7 @@ import java.sql.*;
 public class TesteListagem {
 
     public static void main(String[] args) throws SQLException {
-        Connection connection = Database.getConnection();
+        Connection connection = ConnectionPool.getConnection();
         Statement statement = connection.createStatement();
         boolean resultado = statement.execute("insert into produto (nome, descricao) values ('Notebook', 'Notebook i5')");
         ResultSet resultSet = statement.getResultSet();
