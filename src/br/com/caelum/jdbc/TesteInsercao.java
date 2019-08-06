@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class TesteInsercao {
     public static void main(String[] args) throws SQLException {
-        try(Connection connection = ConnectionPool.getConnection()){
+        try(Connection connection = new ConnectionPool().getConnection()){
             connection.setAutoCommit(false);
             String sql = "insert into Produto (nome, descricao) values (?, ?)";
             try(PreparedStatement statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)){
@@ -21,9 +21,9 @@ public class TesteInsercao {
     }
 
     public static void adiciona(String nome, String descricao, PreparedStatement statement) throws SQLException {
-        if(nome.equals("Blueray")){
+       /* if(nome.equals("Blueray")){
             throw new IllegalArgumentException("Problema ocorrido");
-        }
+        }*/
         statement.setString(1, nome);
         statement.setString(2, descricao);
         statement.execute();
